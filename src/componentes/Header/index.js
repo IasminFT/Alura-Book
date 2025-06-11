@@ -1,16 +1,14 @@
 import './estilo.css'
-import Logo from '../../imagens/logo.svg'
+import Logo from '../Logo'
 import OpcoesHeader from '../OpcoesHeader'
 import IconesHeader from '../IconesHeader'
-
-function Header(){
-    return(
-        <header className='App-header'>
-            <Logo/>
-            <OpcoesHeader/>
-            <IconesHeader/>
-        </header>
-    )
+function Header() {
+   return (
+       <header className='App-header'>
+           <Logo/>
+           <OpcoesHeader/>
+           <IconesHeader/>
+       </header>
+   )
 }
-
 export default Header
